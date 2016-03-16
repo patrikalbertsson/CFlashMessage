@@ -1,4 +1,4 @@
-### CFlashMessage
+# CFlashMessage
 
 This is an m module for simple flash-messages.
 
