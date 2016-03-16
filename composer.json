@@ -1,5 +1,5 @@
 {
-    "name": "vendor/CFlashMessage",
+    "name": "paaa14/CFlashMessage",
     "description": "Adding a Flash-Message function",
     "require": {
         "php": ">=5.3.0"
