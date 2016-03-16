@@ -2,6 +2,7 @@
     "name": "paaa14/c-flash-message",
     "description": "Adding a Flash-Message function",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "paaa14/c-flash-message" : "dev-master"
     }  
 }
