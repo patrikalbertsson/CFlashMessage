@@ -77,4 +77,6 @@ Exemple in Anax-MVC:
     $app->router->add('flash', function() use($app) {
         $app->views->addString('In your template-file, there is a if-statement that checks if a flash has been set. If it returns TRUE, this message is shown. Update page to remove this message.');
     });
+    
+Enjoy :-)
 
