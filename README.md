@@ -78,5 +78,8 @@ Exemple in Anax-MVC:
         $app->views->addString('In your template-file, there is a if-statement that checks if a flash has been set. If it returns TRUE, this message is shown. Update page to remove this message.');
     });
     
-Enjoy :-)
+
+To get Anax-MVC, visit: https://github.com/mosbth/Anax-MVC
+
+Enjoy :)
 
