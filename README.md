@@ -1,8 +1,11 @@
 # CFlashMessage
 
 This is an module for simple flash-messages. It contains in general three functions:
+
 <code>setFlash('type', 'message')</code>: Types allowed: success, notice, warning and error.
+
 <code>hasFlash()</code>: Returns true if flash is set, else false.
+
 <code>getFlash()</code>: Get flashMessage.
 
 ## How to use CFlashMessage
@@ -53,7 +56,7 @@ Exemple:
 Copy <code>flash.css</code> to your css-archive and be sure that <code>flash.css</code> is activated in your framework.
 
 ### Session
-Be sure that Sessions in activated in your framework. If you <code>var_dump($_SESSION)</code> you should have an empty session. If you are using Anax-MVC you 
+Be sure that Sessions is activated in your framework. If you <code>var_dump($_SESSION)</code> you should have an empty session. If you are using Anax-MVC you 
 might have to start the session manually i your frontcontroller.
 
 Put <code>$app->session()</code> in the top of your controller, after you assign <code>$app</code>
