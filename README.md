@@ -20,7 +20,7 @@ Install CFlashMessage via packagist and composer. Add
     
 in your <code>composer.json</code>.
 
-### Set FlashMessage-class
+### 2. Set FlashMessage-class
 
 Set flashMessage in your base class implementing Dependency Injection / Service Locator- file. If you are using Anax-MVC, ex.
 
@@ -28,7 +28,7 @@ File:<code>src/DI/CDIFactoryDefault.php</code>
 
 Add <code>$this->setShared('flashMessage', '\Anax\FlashMessage\CFlashMessage')</code> (you maybe want to change the namespace for <code>CFlashMessage.php</code>)
 
-### Implement code in your template-file
+### 3. Implement code in your template-file
 
 File: <code>theme/anax-base/index.tpl.php</code>
 
@@ -52,19 +52,19 @@ Exemple:
     <?php endif; ?>
     </div>
 
-### Add stylesheet
+### 4. Add stylesheet
 Copy <code>flash.css</code> to your css-archive and be sure that <code>flash.css</code> is activated in your framework.
 
-### Session
+### 5. Session
 Be sure that Sessions is activated in your framework. If you <code>var_dump($_SESSION)</code> you should have an empty session. If you are using Anax-MVC you 
 might have to start the session manually i your frontcontroller.
 
 Put <code>$app->session()</code> in the top of your controller, after you assign <code>$app</code>
 
-### Router
+### 6. Router
 Make sure your framework handles routes. If you are using Anax-MVC, put <code>$app->router->handle()</code> in the bottom of your frontcontroller, before it's being sent to render.
 
-### Create routes and use FlashMessage
+### 7. Create routes and use FlashMessage
 
 Exemple in Anax-MVC:
 
