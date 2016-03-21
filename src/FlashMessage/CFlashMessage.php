@@ -31,7 +31,7 @@ class CFlashMessage {
         // Valid types: success, notice, warning and error.
         
         $flash = ['type' => "flash-" . $type, 'message' => $message];
-        $_SESSION['message'] = $flash;
+        $_SESSION['message'] = $this->message = $flash;
         
     }
      
