@@ -2,10 +2,9 @@
 
 namespace Anax\FlashMessage;
 
-class CFlashMessage implements \Anax\DI\IInjectionAware {
+class CFlashMessage {
     
-    use \Anax\DI\Tinjectable;
- 
+
     //
     // Variables
     //
