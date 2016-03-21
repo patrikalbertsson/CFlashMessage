@@ -2,6 +2,8 @@
 
 This is an module for simple flash-messages. It contains in general three functions:
 
+<img alt="build:passed" src="https://travis-ci.org/patrikalbertsson/CFlashMessage.svg" />
+
 <code>setFlash('type', 'message')</code>: Types allowed: success, notice, warning and error.
 
 <code>hasFlash()</code>: Returns true if flash is set, else false.
