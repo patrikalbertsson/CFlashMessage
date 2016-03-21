@@ -1,8 +1,10 @@
 # CFlashMessage
 
+<img alt="build:passed" src="https://travis-ci.org/patrikalbertsson/CFlashMessage.svg" />
+<img alt="Scrut" src="https://scrutinizer-ci.com/g/patrikalbertsson/CFlashMessage/badges/quality-score.png?b=master" />
+
 This is an module for simple flash-messages. It contains in general three functions:
 
-<img alt="build:passed" src="https://travis-ci.org/patrikalbertsson/CFlashMessage.svg" />
 
 <code>setFlash('type', 'message')</code>: Types allowed: success, notice, warning and error.
 
