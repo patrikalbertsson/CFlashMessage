@@ -16,7 +16,7 @@ spl_autoload_register(
 
         // project-specific namespace prefix
         //$prefix = 'Foo\\Bar\\';
-        $prefix = 'Mos\\';
+        $prefix = 'Anax\\';
 
         // base directory for the namespace prefix
         $base_dir = __DIR__ . '/src/';

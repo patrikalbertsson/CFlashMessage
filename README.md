@@ -15,7 +15,7 @@ Install CFlashMessage via packagist and composer. Add
 
     "require": {
         "php": ">=5.4",
-        "paaa14/c-flash-message" : "v1.0"
+        "paaa14/c-flash-message" : "dev-master"
     },
     
 in your <code>composer.json</code>.
