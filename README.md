@@ -84,7 +84,7 @@ Exemple in Anax-MVC:
     });
     
 
-To get Anax-MVC, visit: https://github.com/mosbth/Anax-MVC
+To get  Anax-MVC, visit: https://github.com/mosbth/Anax-MVC
 
 Enjoy :)
 

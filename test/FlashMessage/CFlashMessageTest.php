@@ -38,7 +38,8 @@ class CFlashMessageTest extends \PHPUnit_Framework_TestCase {
         $res = $fl->getFlash();
         $key = $res['message'];
         $exp = 'message';
-        $this->assertEquals($key, $exp, "Message missmatch");
+        $this->assertEquals($key, $exp, "Message
+        missmatch");
         
     }
     
